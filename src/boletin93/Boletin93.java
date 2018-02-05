@@ -10,8 +10,8 @@ public class Boletin93 {
         String f=JOptionPane.showInputDialog("poña a altura do triángulo");
         int r=Integer.parseInt(f);
         double area=(e*r)/2;
-        if(r>0){
-            if(e>0){
+        if(r>=0){
+            if(e>=0){
                 JOptionPane.showMessageDialog(null, "A área é: "+area);
             }
         }
