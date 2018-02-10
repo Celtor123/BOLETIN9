@@ -14,7 +14,13 @@ public class Boletin93 {
             if(e>=0){
                 JOptionPane.showMessageDialog(null, "A área é: "+area);
             }
+            else{
+                 JOptionPane.showMessageDialog(null, "Poña un valor positivo");
+            }
         }
+        else{
+                 JOptionPane.showMessageDialog(null, "Poña un valor positivo");
+            }
         
     }
     
